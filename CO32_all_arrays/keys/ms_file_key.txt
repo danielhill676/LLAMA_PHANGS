@@ -1,0 +1,66 @@
+##########################################################################
+# MEASUREMENT SET FILE/INPUT KEY
+##########################################################################
+
+# Key to define the location of input visibility data be staged,
+# processed, and imaged by the pipeline.
+
+# The pipeline begins with calibrated visibility data, which are
+# located in this file.
+
+# In this key, each measurement set is mapped to a target, project,
+# array tag, and numerical tag. These are used to group the
+# measurement sets together and stage them for iaging.
+ 
+# The syntax for the key is space or tab delimited:
+ 
+# Column 1: target name associated with the measurement set - should
+# be defined in the target definition key.
+
+# Column 2: project tag associated with the measurement set -
+# suggested convention is the numeric code associated with the project
+# by the observatory.
+
+# Column 3: science field name - "all" is fine, in which case all
+# science targets will be selected. If the field is not all, then this
+# value is selected on during the staging of the data. Therefefore it
+# should map to the field names in the measurement set.
+
+# Column 4: array tag (7m, C, etc.). This is a tag that indicates the
+# interferometric configuration associated with the measurement
+# set. This is set by the user - that is, this is not a formal
+# definition based on baseline lengths, it's a tag. We might change
+# this in the future, but for now this adds flexibility for ALMA at
+# the expense of someonus on the user.
+
+# Column 5: observation number. This is just a nuemric flag indicating
+# the number of the observation among other observations of the same
+# target, project, and array tag.
+
+# Column 6: the file name of a calibrated measurement set. The paths
+# are relative to ANY ms_root directory defined in the master key.
+
+# The targets need to map to the target definitions, and the array
+# tags need to mesh with the config definitions.
+
+#
+##########################################################################
+
+NGC4388          2017.1.00082.S  all 12m 1   2017.1.00082.S/science_goal.uid___A001_X1284_X1c48/group.uid___A001_X1284_X1c49/member.uid___A001_X1284_X1c4a/calibrated/uid___A002_Xc89480_X2ad3.ms
+NGC4388          2017.1.00082.S  all 12m 2   12m/2017.1.00082.S/science_goal.uid___A001_X1284_X1c48/group.uid___A001_X1284_X1c49/member.uid___A001_X1284_X1c4c/calibrated/uid___A002_Xcc3ae3_X5293.ms
+NGC4388          2012.1.00139.S  all 12m 3   12m_1/2012.1.00139.S/science_goal.uid___A002_X5a9a13_Xf3/group.uid___A002_X5a9a13_Xf4/member.uid___A002_X5a9a13_Xf5/calibrated/uid___A002_X828760_X454.ms.split.cal
+NGC4388          2017.1.00082.S  all 7m 1   7m/2022.1.01002.S/science_goal.uid___A001_X2d1f_X38e/group.uid___A001_X2d1f_X38f/member.uid___A001_X2d1f_X390/calibrated/uid___A002_X1064920_X20e1.ms
+
+NGC6814         2017.1.00082.S  all 12m 1   12m_32_1/2017.1.00082.S/science_goal.uid___A001_X1284_X1c42/group.uid___A001_X1284_X1c43/member.uid___A001_X1284_X1c44/calibrated/uid___A002_Xd341ff_X9445.ms.split.cal
+NGC6814         2017.1.00082.S  all 12m 2   12m_32_1/2017.1.00082.S/science_goal.uid___A001_X1284_X1c42/group.uid___A001_X1284_X1c43/member.uid___A001_X1284_X1c44/calibrated/uid___A002_Xe014a2_X92b1.ms.split.cal
+NGC6814         2017.1.00082.S  all 12m 3   12m_32_2/2017.1.00082.S/science_goal.uid___A001_X1284_X1c42/group.uid___A001_X1284_X1c43/member.uid___A001_X1284_X1c46/calibrated/uid___A002_Xcc3ae3_X12410.ms.split.cal
+
+NGC5728         2019.1.00618.S  all 12m 1   12m_32_1/2019.1.00618.S/science_goal.uid___A001_X1465_X29c6/group.uid___A001_X1465_X29c7/member.uid___A001_X1465_X29ca/calibrated/uid___A002_Xe770d7_X3755.ms.split.cal
+NGC5728         2019.1.00618.S  all 12m 2   12m_32_1/2019.1.00618.S/science_goal.uid___A001_X1465_X29c6/group.uid___A001_X1465_X29c7/member.uid___A001_X1465_X29ca/calibrated/uid___A002_Xe78c20_X46c8.ms.split.cal
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+##########################################################################
+# DISTANCE KEY
+##########################################################################
+
+# Key to map from target name to distance in Mpc
+
+# N.B. this file is automatically produced in some cases and this
+# documentation would be overwritten.
+
+# When the user requests to convolve to specific physical resolutions
+# as part of derived product creation a physical distance is
+# needed. This file provides that distance.
+
+# Column 1: target name
+# Column 2: working directory name
+
+##########################################################################
+
+target,dist
+        
+ESO021,39.0
+                           
+ESO093,22.0
+                           
+ESO137,35.0
+                           
+ESO208,17.0
+                           
+MCG514,41.0
+                           
+MCG523,35.0
+                           
+MCG630,27.0
+                           
+NGC1079,19.0
+                           
+NGC1315,21.0
+
+NGC1365,19.57
+                           
+NGC1375,20.0
+                           
+NGC1947,19.0
+                           
+NGC2110,34.0
+
+NGC2775,23.15
+                           
+NGC2992,36.0
+                           
+NGC3081,34.0
+                           
+NGC3175,14.0
+
+ngc3351,9.96
+                           
+NGC3717,24.0
+                           
+NGC3749,42.0
+                           
+NGC3783,38.0
+                           
+NGC4224,41.0
+                           
+NGC4235,37.0
+
+NGC4254,13.1
+                           
+NGC4260,31.0
+                           
+NGC4593,37.0
+                           
+NGC5037,35.0
+                           
+NGC5128,3.6
+                           
+NGC5506,27.0
+                           
+NGC5728,39.0
+                           
+NGC5845,25.0
+                           
+NGC5921,21.0
+                           
+NGC6814,23.0
+                           
+NGC7172,37.0
+                           
+NGC718,23.0
+                           
+NGC7213,25.0
+                           
+NGC7582,22.0
+                           
+NGC7727,26.0
