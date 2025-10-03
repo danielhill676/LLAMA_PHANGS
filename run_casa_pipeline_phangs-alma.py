@@ -133,7 +133,7 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 # "NGC4254", "NGC4593",'NGC5845', "NGC7582"]) # 1365 and 7172 removed whilst waiting for cal and self cal.  NOTE: 2992 has an additional 7m, so don't run it with just 12m!! NOTE: 2775 has been added back in for re-staging with new distance.
 
 this_uvh.set_targets(only=[
-'NGC7582'])
+'NGC1365','NGC4593','NGC2110','NGC2992'])
 
 
 #this_uvh.set_interf_configs(only=['12m', '7m','12m+7m'])
@@ -148,8 +148,7 @@ this_uvh.set_no_cont_products(False)
 
 
 this_imh.set_targets(only=[
-'NGC7582'])
-
+'NGC1365','NGC4593','NGC2110','NGC2992'])
 
 this_imh.set_interf_configs(only=['12m', '7m','12m+7m'])
 this_imh.set_no_cont_products(False)
@@ -158,8 +157,7 @@ this_imh.set_line_products(only=['co21'])
 
 
 this_pph.set_targets(only=[
-'NGC7582'])
-
+'NGC1365','NGC4593','NGC2110','NGC2992'])
 
 this_pph.set_interf_configs(only=['12m', '7m','12m+7m'])
 this_pph.set_feather_configs(only=['12m', '7m','12m+7m'])
