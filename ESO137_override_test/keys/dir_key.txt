@@ -1,0 +1,96 @@
+##########################################################################
+# DIRECTORY MAPPING KEY
+##########################################################################
+
+# Key to map from target name to working directory name.
+
+# N.B. You may not need this file!
+
+# BY DEFAULT the working directory for any target is a directory with
+# the same name as the target. The programs will create the
+# appropriate directory in the imaging, postprocessing,
+# etc. directories.
+
+# This key allows targets to be mapped to other directories.
+
+# The most common use is to combine several targets into a single
+# directory. This comes up for PHANGS-ALMA in the context of linear
+# mosaics. Several targets are observed and then larter combined into
+# a single data cube. Thus we prefer to image and process these parts
+# together in a single directory.
+
+# The syntax for the key is space or tab delimited:
+
+# Column 1: target name
+# Column 2: working directory name
+
+##########################################################################
+
+ESO021   ESO021
+                           
+ESO093   ESO093
+                        
+ESO137   ESO137
+                        
+ESO208   ESO208
+                        
+MCG514   MCG514
+                        
+MCG523   MCG523
+                        
+MCG630   MCG630
+                        
+NGC1079   NGC1079
+                        
+NGC1315   NGC1315
+                        
+NGC1375   NGC1375
+                        
+NGC1947   NGC1947
+                        
+NGC2110   NGC2110
+                        
+NGC2992   NGC2992
+                        
+NGC3081   NGC3081
+                        
+NGC3175   NGC3175
+                        
+NGC3717   NGC3717
+                        
+NGC3749   NGC3749
+                        
+NGC3783   NGC3783
+                        
+NGC4224   NGC4224
+                        
+NGC4235   NGC4235
+                        
+NGC4260   NGC4260
+                        
+NGC4593   NGC4593
+                        
+NGC5037   NGC5037
+                        
+NGC5128   NGC5128
+                        
+NGC5506   NGC5506
+                        
+NGC5728   NGC5728
+                        
+NGC5845   NGC5845
+                        
+NGC5921   NGC5921
+                        
+NGC6814   NGC6814
+                        
+NGC7172   NGC7172
+                        
+NGC718   NGC718
+                        
+NGC7213   NGC7213
+                        
+NGC7582   NGC7582
+                        
+NGC7727   NGC7727
+                           
