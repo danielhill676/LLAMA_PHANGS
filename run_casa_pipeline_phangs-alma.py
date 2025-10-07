@@ -165,7 +165,7 @@ this_pph.set_feather_configs(only=['12m', '7m','12m+7m'])
 # Use boolean flags to set the steps to be performed when the pipeline
 # is called. See descriptions below (but only edit here).
 
-do_staging = True
+do_staging = False
 do_imaging = True
 do_postprocess = True
 do_stats = True

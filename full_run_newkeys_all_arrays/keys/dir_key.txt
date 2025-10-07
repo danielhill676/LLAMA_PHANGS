@@ -55,7 +55,9 @@ NGC2992   NGC2992
 NGC3081   NGC3081
                         
 NGC3175   NGC3175
-                        
+
+NGC3351   NGC3351
+
 NGC3717   NGC3717
                         
 NGC3749   NGC3749
