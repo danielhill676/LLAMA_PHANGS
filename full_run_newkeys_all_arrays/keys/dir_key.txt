@@ -43,12 +43,16 @@ MCG630   MCG630
 NGC1079   NGC1079
                         
 NGC1315   NGC1315
-                        
+
+NGC1365   NGC1365
+
 NGC1375   NGC1375
                         
 NGC1947   NGC1947
                         
 NGC2110   NGC2110
+
+NGC2775   NGC2775
                         
 NGC2992   NGC2992
                         
@@ -67,6 +71,8 @@ NGC3783   NGC3783
 NGC4224   NGC4224
                         
 NGC4235   NGC4235
+
+NGC4254   NGC4254
                         
 NGC4260   NGC4260
                         
