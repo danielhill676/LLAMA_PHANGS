@@ -183,7 +183,6 @@ NGC7727         2019.1.01742.S  all 12m 1   2019.1.01742.S/science_goal.uid___A0
 NGC7727         2019.1.01742.S  all 12m 2   12m/2019.1.01742.S/science_goal.uid___A001_X1465_X27e/group.uid___A001_X1465_X27f/member.uid___A001_X1465_X282/calibrated/uid___A002_Xe3da01_X17f.ms
 NGC7727         2022.1.01262.S  all 12m 3   12m_1/2022.1.01262.S/science_goal.uid___A001_X2d20_X137e/group.uid___A001_X2d20_X137f/member.uid___A001_X2d20_X1380/calibrated/uid___A002_X1035744_X798d.ms
 NGC7727         2022.1.01262.S  all 12m 4   12m_1/2022.1.01262.S/science_goal.uid___A001_X2d20_X137e/group.uid___A001_X2d20_X137f/member.uid___A001_X2d20_X1380/calibrated/uid___A002_X117b2d8_X1635.ms
-NGC7727         2023.1.01099.S  all 7m 1   7m/2023.1.01099.S/science_goal.uid___A001_X3621_X4309/group.uid___A001_X3621_X4310/member.uid___A001_X3621_X4311/calibrated/uid___A002_X1115718_X18fde.ms
 
 ESO093         2019.1.01742.S  all 12m 1   2019.1.01742.S/science_goal.uid___A001_X1465_X28a/group.uid___A001_X1465_X28b/member.uid___A001_X1465_X28c/calibrated/uid___A002_Xe1baa0_X1e1.ms
 
@@ -197,7 +196,6 @@ NGC1079         2019.1.01742.S  all 12m 2   12m/2019.1.01742.S/science_goal.uid_
 
 NGC1375         2019.1.01742.S  all 12m 1   2019.1.01742.S/science_goal.uid___A001_X1465_X284/group.uid___A001_X1465_X285/member.uid___A001_X1465_X286/calibrated/uid___A002_Xe1baa0_X36e5.ms
 NGC1375         2019.1.01742.S  all 12m 2   12m/2019.1.01742.S/science_goal.uid___A001_X1465_X284/group.uid___A001_X1465_X285/member.uid___A001_X1465_X288/calibrated/uid___A002_Xe3da01_X85a.ms
-NGC1375         2023.1.01099.S  all 7m 1   7m/2023.1.01099.S/science_goal.uid___A001_X3621_X434c/group.uid___A001_X3621_X435f/member.uid___A001_X3621_X4360/calibrated/uid___A002_X1115718_X2546c.ms
 
 NGC2110         2016.1.00839.S  all 12m 1   2016.1.00839.S/science_goal.uid___A001_X87d_X302/group.uid___A001_X87d_X303/member.uid___A001_X87d_X304/calibrated/uid___A002_Xc2d675_X1524.ms
 NGC2110         2022.1.01002.S  all 7m 1   7m/2022.1.01002.S/science_goal.uid___A001_X2d1f_X386/group.uid___A001_X2d1f_X387/member.uid___A001_X2d1f_X388/calibrated/trimmed_uid___A002_X1093ae8_X77c9.ms
