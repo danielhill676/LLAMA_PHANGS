@@ -83,11 +83,11 @@ NGC1365         2013.1.01161.S  all 7m 10   7m_1/2013.1.01161.S/science_goal.uid
 
 NGC1947         2019.1.01742.S  all 12m 1   2019.1.01742.S/science_goal.uid___A001_X1465_X29a/group.uid___A001_X1465_X29b/member.uid___A001_X1465_X29c/calibrated/uid___A002_Xe1baa0_X3bc9.ms
 
-NGC2775        2017.1.00886.L  all 12m 1   12m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2815/calibrated/uid___A002_Xcccc19_X384.ms.split.cal
-NGC2775        2017.1.00886.L  all 7m 1   7m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2817/calibrated/uid___A002_Xc53e4e_X3cbc.ms
-NGC2775        2017.1.00886.L  all 7m 2   7m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2817/calibrated/uid___A002_Xc5537d_X2694.ms
-NGC2775        2017.1.00886.L  all 7m 3   7m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2817/calibrated/uid___A002_Xc55c89_X3d41.ms
-NGC2775        2017.1.00886.L  all 7m 4   7m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2817/calibrated/uid___A002_Xc571aa_X312f.ms
+NGC2775        2017.1.00886.L  all 12m 1   12m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2815/calibrated/trimmed_uid___A002_Xcccc19_X384.ms.split.cal
+#NGC2775        2017.1.00886.L  all 7m 1   7m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2817/calibrated/uid___A002_Xc53e4e_X3cbc.ms
+#NGC2775        2017.1.00886.L  all 7m 2   7m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2817/calibrated/uid___A002_Xc5537d_X2694.ms
+#NGC2775        2017.1.00886.L  all 7m 3   7m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2817/calibrated/uid___A002_Xc55c89_X3d41.ms
+#NGC2775        2017.1.00886.L  all 7m 4   7m/2017.1.00886.L/science_goal.uid___A001_X1284_X2813/group.uid___A001_X1284_X2814/member.uid___A001_X1284_X2817/calibrated/uid___A002_Xc571aa_X312f.ms
 
 
 
@@ -112,7 +112,7 @@ NGC3175         2019.1.01742.S  all 12m 2   12m/2019.1.01742.S/science_goal.uid_
 
 NGC3351         2023.1.01182.S  all 12m 1   12m/2023.1.01182.S/science_goal.uid___A001_X3621_X13ed/group.uid___A001_X3621_X13ee/member.uid___A001_X3621_X13ef/calibrated/uid___A002_X110a1a2_X2ad5b.ms
 NGC3351         2023.1.01182.S  all 12m 2   12m/2023.1.01182.S/science_goal.uid___A001_X3621_X13ed/group.uid___A001_X3621_X13ee/member.uid___A001_X3621_X13ef/calibrated/uid___A002_X110fd13_X9858.ms
-NGC3351         2015.1.00956.S  all 12m 3   12m_1/2015.1.00956.S/science_goal.uid___A001_X2fb_X27b/group.uid___A001_X2fb_X27c/member.uid___A001_X2fb_X27d/calibrated/calibrated_final.ms
+NGC3351         2015.1.00956.S  all 12m 3   12m_1/2015.1.00956.S/science_goal.uid___A001_X2fb_X27b/group.uid___A001_X2fb_X27c/member.uid___A001_X2fb_X27d/calibrated/trimmed_calibrated_final.ms
 NGC3351         2016.2.00053.S  all 7m 1   7m/2016.2.00053.S/science_goal.uid___A001_X124a_X1ca/group.uid___A001_X124a_X1cb/member.uid___A001_X124a_X1cc/calibrated/uid___A002_Xc26103_X1adb.ms
 NGC3351         2015.1.00956.S  all 7m 2   7m_1/2015.1.00956.S/science_goal.uid___A001_X2fb_X27b/group.uid___A001_X2fb_X27c/member.uid___A001_X2fb_X27f/calibrated/uid___A002_Xb62a5b_X8184.ms
 NGC3351         2015.1.00956.S  all 7m 3   7m_1/2015.1.00956.S/science_goal.uid___A001_X2fb_X27b/group.uid___A001_X2fb_X27c/member.uid___A001_X2fb_X27f/calibrated/uid___A002_Xb64387_X61ae.ms
