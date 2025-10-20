@@ -35,7 +35,7 @@ pipedir = '/data/c3040163/llama/alma/phangs_imaging_scripts-master/'
 
 
 # key_file = '/data/c3040163/llama/alma/phangs_imaging_scripts-master/full_run_newkeys_all_arrays/keys/master_key.txt'
-key_file = '/data/c3040163/llama/alma/phangs_imaging_scripts-master/full_run_newkeys_all_arrays/keys/master_key.txt'
+key_file = '/data/c3040163/llama/alma/phangs_imaging_scripts-master/ESO137_override_test/keys/master_key.txt'
 
 
 # Change directory to the pipeline directory.
@@ -129,7 +129,7 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 #  "NGC5921", "NGC6814" ,"NGC7172", "NGC718",  "NGC7213" ])
 
 this_uvh.set_targets(only=[
-'NGC2775'])
+'ESO137'])
 
 
 #this_uvh.set_interf_configs(only=['12m', '7m','12m+7m'])
@@ -144,18 +144,18 @@ this_uvh.set_no_cont_products(False)
 
 
 this_imh.set_targets(only=[
-'NGC2775'])
-this_imh.set_interf_configs(only=['7m','12m+7m'])
+'ESO137'])
+this_imh.set_interf_configs(only=['12m'])
 this_imh.set_no_cont_products(False)
 this_imh.set_line_products(only=['co21'])
 
 
 
 this_pph.set_targets(only=[
-'NGC2775'])
+'ESO137'])
 
-this_pph.set_interf_configs(only=['7m','12m+7m'])
-this_pph.set_feather_configs(only=['7m','12m+7m'])
+this_pph.set_interf_configs(only=['12m'])
+this_pph.set_feather_configs(only=['12m'])
 
 # Use boolean flags to set the steps to be performed when the pipeline
 # is called. See descriptions below (but only edit here).
