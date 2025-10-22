@@ -475,7 +475,7 @@ if casa_enabled:
 
             # Insert overwritten values here ############## cell and image override
             # cell = '0.5arcsec'
-            # imsize = [500, 500]
+            imsize = [1920, 1920]
 
             # Print info
             logger.info('cell='+cell+', imsize='+str(imsize))
