@@ -474,8 +474,8 @@ if casa_enabled:
                 logger.info('DRY RUN skips calling imr.estimate_cell_and_imsize()')
 
             # Insert overwritten values here ############## cell and image override
-            cell = '0.5arcsec'
-            imsize = [500, 500]
+            # cell = '0.5arcsec'
+            # imsize = [500, 500]
 
             # Print info
             logger.info('cell='+cell+', imsize='+str(imsize))
