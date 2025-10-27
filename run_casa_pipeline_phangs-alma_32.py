@@ -130,10 +130,10 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 #  "NGC5921", "NGC6814" ,"NGC7172", "NGC718",  "NGC7213" ])
 
 this_uvh.set_targets(only=[
-"NGC5728","NGC6814" ]) # 4388 removed to avoid out-of-memory issues
+"NGC4388" ]) 
 
 
-this_uvh.set_interf_configs(only=['12m', '7m','12m+7m'])
+this_uvh.set_interf_configs(only=['12m', '12m+7m'])
 this_uvh.set_line_products(only=['co32'])
 this_uvh.set_no_cont_products(False)
 
@@ -144,20 +144,20 @@ this_uvh.set_no_cont_products(False)
 
 
 this_imh.set_targets(only=[
-"NGC5728","NGC6814" ]) # 4388 removed to avoid out-of-memory issues
+"NGC4388" ]) 
 
-this_imh.set_interf_configs(only=['12m', '7m','12m+7m'])
+this_imh.set_interf_configs(only=['12m', '12m+7m'])
 this_imh.set_no_cont_products(False)
 this_imh.set_line_products(only=['co32'])
 
 
 
 this_pph.set_targets(only=[
-"NGC5728","NGC6814" ]) # 4388 removed to avoid out-of-memory issues
+"NGC4388" ]) 
 
 
-this_pph.set_interf_configs(only=['12m', '7m','12m+7m'])
-this_pph.set_feather_configs(only=['12m', '7m','12m+7m'])
+this_pph.set_interf_configs(only=['12m', '12m+7m'])
+this_pph.set_feather_configs(only=['12m', '12m+7m'])
 
 # Use boolean flags to set the steps to be performed when the pipeline
 # is called. See descriptions below (but only edit here).

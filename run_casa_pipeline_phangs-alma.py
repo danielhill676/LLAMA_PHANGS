@@ -120,7 +120,7 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 # this_uvh.set_targets(only=[
 # "ESO021","ESO093", "ESO137",  "ESO208",  "MCG514","MCG523", "MCG630", "NGC1079",  # THIS BLOCK HAS BEEN FIXED TO BE ALPHABETISED AS PIPELINE RUNS
 # "NGC1315","NGC1365", "NGC1375", "NGC1947", "NGC2110", "NGC2775", "NGC2992", "NGC3081", "NGC3175", "NGC3351", "NGC3717",
-# "NGC3749", "NGC3783", "NGC4224", "NGC4235", "NGC4254","NGC4260", "NGC4593", "NGC5037", "NGC5182", "NGC5506", "NGC5728", 
+# "NGC3749", "NGC3783", "NGC4224", "NGC4235", "NGC4254","NGC4260", "NGC2110", "NGC5037", "NGC5182", "NGC5506", "NGC5728", 
 # "NGC5845", "NGC5921", "NGC6814" ,"NGC7172", "NGC718",  "NGC7213", "NGC7582", "NGC7727" ])
 
 # "ESO021","ESO093", "ESO137",  "ESO208",  "MCG514","MCG523", "MCG630", "NGC1079",  # All targets in list of unfinished targets have been removed.
@@ -129,11 +129,11 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 #  "NGC5921", "NGC6814" ,"NGC7172", "NGC718",  "NGC7213" ])
 
 this_uvh.set_targets(only=[
-'NGC4593'])
+'NGC4235'])
 
 
 #this_uvh.set_interf_configs(only=['12m', '7m','12m+7m'])
-this_uvh.set_interf_configs(only=['12m+7m'])
+this_uvh.set_interf_configs(only=['12m','12m+7m'])
 this_uvh.set_line_products(only=['co21'])
 this_uvh.set_no_cont_products(False)
 
@@ -144,18 +144,18 @@ this_uvh.set_no_cont_products(False)
 
 
 this_imh.set_targets(only=[
-'NGC4593'])
-this_imh.set_interf_configs(only=['12m+7m'])
+'NGC4235'])
+this_imh.set_interf_configs(only=['12m','12m+7m'])
 this_imh.set_no_cont_products(False)
 this_imh.set_line_products(only=['co21'])
 
 
 
 this_pph.set_targets(only=[
-'NGC4593'])
+'NGC4235'])
 
-this_pph.set_interf_configs(only=['12m+7m'])
-this_pph.set_feather_configs(only=['12m+7m'])
+this_pph.set_interf_configs(only=['12m','12m+7m'])
+this_pph.set_feather_configs(only=['12m','12m+7m'])
 
 # Use boolean flags to set the steps to be performed when the pipeline
 # is called. See descriptions below (but only edit here).
