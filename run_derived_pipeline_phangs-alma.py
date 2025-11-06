@@ -83,14 +83,12 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 # something similar.
 
 this_der.set_targets(only=[
-"ESO021","ESO093", "ESO137",  "ESO208",  "MCG514","MCG523", "NGC1079",  # All targets in list of unfinished targets have been removed. MCG 630 has been removed because its not behaving.
-"NGC1315", "NGC1947",  "NGC3081", "NGC3175", "NGC3717",
-"NGC3749", "NGC3783", "NGC4224",  "NGC4260", "NGC5037",  "NGC5506", "NGC5728", 
- "NGC5921", "NGC6814" ,"NGC7172", "NGC718",  "NGC7213" ])
+'NGC4235', 'NGC5845', 'NGC7582', 'NGC2775', 'NGC7727', 'NGC2110', 'NGC3351', 'NGC4593', 'NGC1375', 'NGC1365', 'NGC4254', 'NGC2992'])
 
 
-this_der.set_interf_configs(only=['12m', '7m','12m+7m'])
-this_der.set_feather_configs(only=['12m', '7m','12m+7m'])
+
+this_der.set_interf_configs(only=['12m'])
+this_der.set_feather_configs(only=['12m'])
 
 this_der.set_line_products(only=['co21'])
 this_der.set_no_cont_products(False)
@@ -98,7 +96,7 @@ this_der.set_no_cont_products(False)
 # Use boolean flags to set the steps to be performed when the pipeline
 # is called. See descriptions below (but only edit here).
 
-do_convolve = False
+do_convolve = True
 do_noise = True
 do_strictmask = True
 do_broadmask = True
