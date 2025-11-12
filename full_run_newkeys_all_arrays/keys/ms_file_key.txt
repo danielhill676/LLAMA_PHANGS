@@ -174,8 +174,8 @@ NGC5921         2019.1.01742.S  all 12m 1   2019.1.01742.S/science_goal.uid___A0
 NGC7172         2018.1.00248.S  all 12m 1   2018.1.00248.S_copy/science_goal.uid___A001_X133d_X8e5/group.uid___A001_X133d_X8e6/member.uid___A001_X133d_X8e7/calibrated/uid___A002_Xe0be64_X13fb_selfcal.ms
 NGC7172         2018.1.00248.S  all 12m 2   2018.1.00248.S_copy/science_goal.uid___A001_X133d_X8e5/group.uid___A001_X133d_X8e6/member.uid___A001_X133d_X8e7/calibrated/uid___A002_Xe0740c_X2a5a_selfcal.ms
 NGC7172         2018.1.00248.S  all 12m 3   2018.1.00248.S_copy/science_goal.uid___A001_X133d_X8e5/group.uid___A001_X133d_X8e6/member.uid___A001_X133d_X8e7/calibrated/uid___A002_Xe0be64_X13fb_selfcal.ms
-NGC7172         2019.1.00363.S  all 7m 1   7m/2019.1.00363.S/science_goal.uid___A001_X1465_X322d/group.uid___A001_X1465_X322e/member.uid___A001_X1465_X322f/calibrated/uid___A002_Xe20b32_X959.ms
-NGC7172         2015.1.00116.S  all 12m 4   12m/2015.1.00116.S/science_goal.uid___A001_X5a3_X199/group.uid___A001_X5a3_X19a/member.uid___A001_X5a3_X19b/calibrated/uid___A002_Xb51110_X1765.ms.split.cal
+#NGC7172         2019.1.00363.S  all 7m 1   7m/2019.1.00363.S/science_goal.uid___A001_X1465_X322d/group.uid___A001_X1465_X322e/member.uid___A001_X1465_X322f/calibrated/uid___A002_Xe20b32_X959.ms
+# NGC7172         2015.1.00116.S  all 12m 4   12m/2015.1.00116.S/science_goal.uid___A001_X5a3_X199/group.uid___A001_X5a3_X19a/member.uid___A001_X5a3_X19b/calibrated/uid___A002_Xb51110_X1765.ms.split.cal
 
 NGC7213         2012.1.00474.S  all 12m 1   2012.1.00474.S/science_goal.uid___A002_X5d7935_X291/group.uid___A002_X5d7935_X292/member.uid___A002_X5d7935_X293/calibrated/uid___A002_X829c4c_Xb7f.ms.split.cal
 
