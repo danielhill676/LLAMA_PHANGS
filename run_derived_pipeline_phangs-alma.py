@@ -83,7 +83,7 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 # something similar.
 
 this_der.set_targets(only=[
-'NGC7582'])
+'NGC4593'])
 
 
 
