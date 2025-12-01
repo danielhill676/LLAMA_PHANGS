@@ -135,8 +135,8 @@
 
 # DELETE AFTER HERE FOR NEW PROJECT, FULL PHANGS-ALMA CASE FOLLOWS
 
-#line_product    co21      {'line_tag':'co21','channel_kms':15.0,'statwt_edge_kms':50.0}
-#line_product    co21      {'fitorder':1,'combinespw':True,'lines_to_flag':['co21']}
+line_product    co21      {'line_tag':'co21','channel_kms':15.0,'statwt_edge_kms':50.0}
+line_product    co21      {'fitorder':1,'combinespw':True,'lines_to_flag':['co21']}
 #line_product    13co21    {'line_tag':'13co21','channel_kms':15.0,'statwt_edge_kms':50.0}
 #line_product    13co21    {'fitorder':0,'combinespw':False,'lines_to_flag':['13co21','c18o21']}
 #line_product    c18o21    {'line_tag':'c18o21','channel_kms':15.0,'statwt_edge_kms':100.0}

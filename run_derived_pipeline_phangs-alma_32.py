@@ -83,11 +83,11 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 # something similar.
 
 this_der.set_targets(only=[
-"NGC5728","NGC6814","NGC4388" ]) # 4388 removed to avoid out-of-memory issues
+"NGC5728","NGC6814","NGC4388" ])
 
 
-this_der.set_interf_configs(only=['12m', '7m','12m+7m'])
-this_der.set_feather_configs(only=['12m', '7m','12m+7m'])
+this_der.set_interf_configs(only=['12m'])
+this_der.set_feather_configs(only=['12m'])
 
 this_der.set_line_products(only=['co32'])
 this_der.set_no_cont_products(False)
