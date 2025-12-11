@@ -129,11 +129,11 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 #  "NGC5921", "NGC6814" ,"NGC7172", "NGC718",  "NGC7213" ])
 
 this_uvh.set_targets(only=[
-'NGC4254','NGC3351'])
+'NGC3081','NGC5845','NGC2110'])
 
 
 #this_uvh.set_interf_configs(only=['12m', '7m','12m+7m'])
-this_uvh.set_interf_configs(only=['12m'])
+this_uvh.set_interf_configs(only=['12m+7m'])
 this_uvh.set_line_products(only=['co21'])
 this_uvh.set_no_cont_products(False)
 
@@ -144,25 +144,26 @@ this_uvh.set_no_cont_products(False)
 
 
 this_imh.set_targets(only=[
-'NGC4254','NGC3351'])
-this_imh.set_interf_configs(only=['12m'])
+'NGC3081','NGC5845','NGC2110'])
+
+this_imh.set_interf_configs(only=['12m+7m'])
 this_imh.set_no_cont_products(False)
 this_imh.set_line_products(only=['co21'])
 
 
 
 this_pph.set_targets(only=[
-'NGC4254','NGC3351'])
+'NGC3081','NGC5845','NGC2110'])
 
-this_pph.set_interf_configs(only=['12m'])
+this_pph.set_interf_configs(only=['12m+7m'])
 this_pph.set_no_cont_products(False)
-this_pph.set_feather_configs(only=['12m'])
+this_pph.set_feather_configs(only=['12m+7m'])
 
 # Use boolean flags to set the steps to be performed when the pipeline
 # is called. See descriptions below (but only edit here).
 
-do_staging = True
-do_imaging = True
+do_staging = False
+do_imaging = False
 do_postprocess = True
 do_stats = True
 

@@ -83,12 +83,12 @@ this_kh.make_missing_directories(imaging=True, derived=True, postprocess=True, r
 # something similar.
 
 this_der.set_targets(only=[
-'NGC4254','NGC3351'])
+'NGC3081','NGC5845','NGC2110'])
 
 
 
-this_der.set_interf_configs(only=['12m'])
-this_der.set_feather_configs(only=['12m'])
+this_der.set_interf_configs(only=['12m+7m'])
+this_der.set_feather_configs(only=['12m+7m'])
 
 this_der.set_line_products(only=['co21'])
 this_der.set_no_cont_products(False)
