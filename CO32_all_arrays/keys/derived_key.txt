@@ -63,9 +63,31 @@ all		all	strictmask_kw	{'min_pix':None,'min_area':None}
 
 all		all	broadmask_kw	{}
 
+12m		all	convolve_kw	{}
+
+12m		all	noise_kw	{'spec_box':5,'iterations':3}
+
+12m		all	strictmask_kw	{'hi_thresh':4.0,'hi_nchan':2,'lo_thresh':2.0,'lo_nchan':2}
+12m		all	strictmask_kw	{'grow_xy':0,'grow_v':0}
+12m		all	strictmask_kw	{'min_pix':None,'min_area':None}
+
+12m		all	broadmask_kw	{}
+
 all		co32	phys_res	{{'60pc': 60.0, '90pc': 90.0, '120pc': 120.0, '150pc': 150.0}}
 all		co32	ang_res		{{'2as': 2.0}}
 all		co32	moments		['strictmom0','broadmom0']
+all		cont	ang_res		{'2as':2.0}
+all		all	mask_configs	['12m','12m+7m','12m+7m+tp','7m','7m+tp']
+all		co32	moments		['mom1wprior']
+all		co32	moments		['mom2wprior']
+
+12m		co32	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0}
+12m		co32	ang_res		{'2as':2.0}
+12m		cont	ang_res		{'2as':2.0}
+12m		all	mask_configs	['12m','12m+7m','12m+7m+tp','7m','7m+tp']
+12m		co32	moments		['strictmom0','broadmom0']
+12m		co32	moments		['mom1wprior']
+12m		co32	moments		['mom2wprior']
 
 
 

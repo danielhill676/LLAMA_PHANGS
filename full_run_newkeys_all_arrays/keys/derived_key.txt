@@ -65,6 +65,10 @@ all		all	noise_kw	{'spec_box':5,'iterations':3}
 12m+7m		all	strictmask_kw	{'grow_xy':0,'grow_v':0}
 12m+7m		all	strictmask_kw	{'min_pix':None,'min_area':None}
 
+12m	all	strictmask_kw	{'hi_thresh':4.0,'hi_nchan':2,'lo_thresh':2.0,'lo_nchan':2}
+12m	all	strictmask_kw	{'grow_xy':0,'grow_v':0}
+12m	all	strictmask_kw	{'min_pix':None,'min_area':None}
+
 all		all	strictmask_kw	{'hi_thresh':4.0,'hi_nchan':2,'lo_thresh':2.0,'lo_nchan':2}
 all		all	strictmask_kw	{'grow_xy':0,'grow_v':0}
 all		all	strictmask_kw	{'min_pix':None,'min_area':None}
@@ -74,8 +78,11 @@ all		all	broadmask_kw	{}
 12m		co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0}
 12m		co21	ang_res		{'2as':2.0}
 12m		cont	ang_res		{'2as':2.0}
-12m		all	mask_configs	['12m+7m','12m+7m+tp','7m','7m+tp']
+12m		all	mask_configs	['12m','12m+7m','12m+7m+tp','7m','7m+tp']
 12m		co21	moments		['strictmom0','broadmom0']
+12m		co21	moments		['mom1wprior']
+12m		co21	moments		['mom2wprior']
+
 
 12m+7m		co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0,'500pc':500.0,'750pc':750.0,'1kpc':1000.0}
 12m+7m		co21	ang_res		{'2as':2.0,'7p5as':7.5,'11as':11.0,'15as':15.0}
